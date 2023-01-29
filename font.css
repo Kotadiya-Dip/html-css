@@ -1,0 +1,23 @@
+nav{ 
+    background-color: rgb(234, 241, 241);
+    padding: 20px 15px;
+
+}
+nav a{
+    color: brown;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    text-align: center;
+}
+.sea_box{
+    padding: 8px 5px;
+    border-radius: 8px;
+    border: 2px sienna;
+}
+.log_btn{
+    border: 2px salmon;
+    padding: 12px 20px;
+    border-radius: 5px;
+}
