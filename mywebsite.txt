@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/w3css/3/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<body>
+
+<!-- Navigation -->
+<nav class="w3-bar w3-black">
+  <a href="#home" class="w3-button w3-bar-item">Home</a>
+  <a href="#band" class="w3-button w3-bar-item">vehicle</a>
+  <a href="#tour" class="w3-button w3-bar-item">about us</a>
+  <a href="#contact" class="w3-button w3-bar-item">Contact</a>
+</nav>
+
+<!-- Slide Show -->
+<section>
+  <img class="mySlides" src="https://th.bing.com/th/id/OIP.leaGl5JZzHfaIbz0NUm95wHaEk?w=295&h=182&c=7&r=0&o=5&pid=1.7"
+  style="width:100%">
+  <img class="mySlides" src="https://th.bing.com/th/id/OIP.Ko2-ImN1zIGkjYc3EB0kDQHaEK?pid=ImgDet&rs=1"
+  style="width:100%">
+  <img class="mySlides" src="https://th.bing.com/th/id/OIP.RPZVddB8Htqf0ZxUMICyBwHaEk?pid=ImgDet&rs=1"
+  style="width:100%">
+</section>
+
+<!-- Band Description -->
+<section class="w3-container w3-center w3-content" style="max-width:600px">
+  <h2 class="w3-wide">Mahindra </h2>
+  <p class="w3-opacity" style="background-color:lightpink"><i>We love mahindra car and also company</i></p>
+  <p class="w3-justify" style="background-color:lightgreen;">Many Companies. One Mahindra. Our story was cast and hewn in India’s steel industry in 1945, and today, we’re a US $20.7 billion global federation of companies. Famous for our rugged and reliable automobiles, some also know us for our innovative IT solutions, and others for our commitment to rural prosperity. Befitting our size, we operate in 21 key industries, providing insightful and ingenious solutions that are global in their ramifications. Our companies act as a federation, with an optimum balance of entrepreneurial independence and synergy. From Mobility to Rural Prosperity and IT, from Financial Services to Clean Energy and Business Productivity, we’re empowering enterprise everywhere. Headquartered in Mumbai, India, we have an operational presence in over 100 countries and employ more than 200,000 people. And though we operate across vast geographies, our governing spirit of "Rise" binds us as one Mahindra, dictating that we empower people everywhere to not only chart new frontiers, but to conquer them too.</p>
+</section>
+
+<!-- most popular car -->
+<section class="https://wallpapercave.com/wp/wp9696995.jpg">
+  <article class="w3-third">
+    <p style="color:green">mahindra xuv 700</p>
+    <img src="https://wallpapercave.com/wp/wp9696995.jpg" alt="xuv700" style="width:100%">
+    <p style="color:red;">It is the Smartest</p>
+  </article>
+  <article class="w3-third">
+    <p style="color:green">mahindra</p>
+    <img src="https://th.bing.com/th/id/OIP.8XjlnQ1kSu-asE7C9mKgjwHaE8?pid=ImgDet&rs=1" alt="Random Name" style="width:100%">
+    <p style="color:red;">It is the most popular</p>
+  </article>
+  <article class="w3-third">
+    <p style="color:green;">mahindra</p>
+    <img src="https://wallpapercave.com/wp/wp2856305.jpg" alt="Random Name" style="width:100%">
+    <p style="color:red;">scorpio is strongest</p>
+  </article>
+</section>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
+  <a href="#"><i class="fa fa-facebook-official" style="color:lightblue;"></i></a>
+  <a href="#"><i class="fa fa-github" ></i></a>
+  <a href="#"><i class="fa fa-twitter" style="color:skyblue;"></i></a>
+  <a href="#"><i class="fa fa-flickr"></i></a>
+  <a href="#"><i class="fa fa-linkedin"></i></a>
+  <p class="w3-medium">
+  
+  </p>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
+}
+</script>
+
+</body>
+</html>
+
